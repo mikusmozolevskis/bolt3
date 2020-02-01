@@ -1,0 +1,774 @@
+body{
+    font-family:  sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+.hamb{
+    display: none;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-left: 10%;
+    z-index: 1;
+}
+.nav-links{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100%;
+    padding-bottom: 25px;
+}
+.navbar{
+    display: flex;
+}
+.nav-links a:hover{
+    z-index: -2;
+    background-color: rgb(228, 228, 228);
+}
+nav img{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+.container{
+    background: rgb(28, 182, 97);
+    display: flex;
+}
+.text{
+    width: 40%;
+    color: white;
+    padding-left: 10%;
+    padding-top: 7%;
+    padding-right: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.text h1{
+    font-size: 80px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+.girl{
+    width: 50%;
+}
+.girl img{
+    width: 100%;
+    height: 100%;
+}
+.text p{
+    font-size: 18px;
+}
+#apple{
+   cursor: pointer;
+}
+.google{
+    width:150px;
+    height: auto;
+    position: absolute;
+    margin-top: -10px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.circle{
+    box-sizing: border-box;
+    width: 900px;
+    height:900px;
+    background: rgb(99, 102, 255);
+    position: absolute;
+    left: 160px;
+    border-radius: 50%;
+    top: -90%;
+    z-index: 1;
+}
+.circle2{
+    box-sizing: border-box;
+    width: 240px;
+    height: 240px;
+    background: rgb(99, 102, 255);
+    position: absolute;
+    left: 75%;
+    border-radius: 50%;
+    top: -36%;
+    z-index: 5;
+}
+.blue p{
+    font-size: 18px;
+}
+.best{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15%;
+    margin-left: 10%;
+    padding-bottom: 15%;
+    line-height: 2em;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+}
+#ride, #price, #use{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 30px 60px 30px 0;
+}
+.best figcaption{
+    font-size: 20px;
+    color: grey;
+    padding-right: 30px;
+}
+#img1{
+    width: 55%;
+}
+#img2{
+    width: 40%;
+    margin-top: -20%;
+}
+#img3{
+width: 35%;
+margin-top: -30%;
+}
+.first{
+    margin-left: 5%;
+}
+.green{
+    background:rgb(206, 252, 206);
+   padding-left: 15%;
+   padding-top: 6%;
+   padding-bottom: 6%;
+}
+.green h1{
+    font-size: 50px;
+}
+.green p{
+    color: grey;
+    font-size: 18px;
+}
+.green img{
+    width: 43.5%;
+}
+.hi2{
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 35%;
+    z-index: 999;
+    width: 100%;
+}
+.hi1{
+    margin-right: 60%;
+}
+.container2{
+margin-left: 15%;
+display: flex;
+margin-top: 7%;
+margin-bottom: 10%;
+position: relative;
+}
+.test1, .test2, .test3{
+    padding-right: 8%;
+}
+.container2 p{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.container2 h1{
+    font-size: 26px;
+    font-weight: bolder;
+   margin-right: 5px;
+}
+.container2 img{
+    background-color:rgb(206, 252, 206);
+    padding: 4%;
+    border-radius: 50%;
+}
+.container3{
+    background: rgb(28, 182, 97);
+    color: white;
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 7%;
+}
+.apple{
+    margin-left: -7%;
+}
+.container3 h1{
+    font-size: 55px;
+}
+.container3 p{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container3 p a{
+    color: white;
+    font-size: 25px;
+}
+.container4{
+    display: flex;
+    margin-left: 15%;
+    padding-top: 3%;
+    
+}
+.boltlogo{
+    width: 80%;
+    padding-bottom: 25px;
+    margin-left: -5%;
+}
+
+.middle {
+    margin-left: 25%;
+}
+.right{
+    margin-left: 10%;
+}
+.middle p{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.middle li{
+    list-style-type: none;
+}
+.middle li a{
+    text-decoration: none;
+   font-size: 18px;
+    color: rgb(78, 77, 77);
+    line-height: 2.2em;
+}
+.right p{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.right li{
+    list-style-type: none;
+}
+.right li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(78, 77, 77);
+    line-height: 2.2em;
+}
+.help{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: -6%;
+}
+.social{
+    display: flex;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    flex-wrap: nowrap;
+    
+}
+.social #techno{
+    font-size: 22px;
+}
+#legal a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 50%;
+    color: black;
+}
+.media{
+    position: absolute;
+    right: 90px;
+    font-size: 18px;
+}
+.media .fab{
+    padding: 15px 15px;
+    border-radius: 50%;
+    border:black solid 1px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -35%;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+.blue{
+    background-color:rgb(81, 94, 212);
+    margin-top: -50px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-bottom: 80px;
+    display: flex;
+    z-index: 5;
+    position: relative;
+    z-index: -1;
+}
+.blue h2{
+    position: relative;
+    font-size:40px ;
+    margin-bottom: 0px;
+    z-index: 3;
+}
+    .btn{
+        width: 110%;
+        height: 55px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: white;
+        border: none;
+        border-radius: 10%;
+        cursor: pointer;
+        margin-left: 70%;
+        margin-top: 20%;
+        margin-right: 30%;
+        padding: 5px 5%;
+        position: relative;
+        z-index: 10;
+    }
+    .blue p{
+        font-size: 18px;
+        z-index: 3;
+        position: relative;
+    }
+    
+   
+
+    @media only screen and (max-width:960px){
+        .blue h2{
+            font-size: 30px;
+        }
+    }
+    @media only screen and (max-width:960px){
+        .navbar{
+            display: none;
+        }
+        .hamb{
+            position: absolute;
+            display: inline-block;
+            top: 0;
+            right: 5%;
+            padding: 15px 0;
+            cursor: pointer;
+        
+        }
+        .line1{
+            width: 20px;
+            background-color: black;
+            height: 3px;
+            margin: 5px 0;
+        }
+        .navbar{
+        
+            position: absolute;
+            left: 0%;
+            display: none;
+        
+        
+        }
+        .nav-links{
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0 0;
+            padding: 0px 0;
+        }
+        .nav-links a{
+            text-decoration: none;
+            color: black;
+        }
+        .hamb:hover .navbar{
+            display: block;
+        
+        }
+        hr{
+            display: inline-block;
+            display: none;
+            box-sizing: border-box;
+            width: 7px;
+            height: 40px;
+            background-color: green;
+            padding-top: 0px;
+            margin-top: -10px;
+            margin-left: -20px;
+            position: absolute;
+        }
+        .nav-links:hover hr{
+            display: inline-block;
+        }
+        .container{
+            flex-direction: column;
+
+        }
+        nav img{
+            margin-left: -8%;
+        }
+        .text{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            padding-top:10%;
+            padding-left: 3%;
+            padding-bottom: 3%;
+        }
+        .text h1{
+            font-size: 48px;
+        }
+        .girl{
+            width: 100%;
+        }
+        .girl img{
+            width: 100%;
+            height:auto ;
+        }
+        .green{
+            display: flex;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            margin-left:3%;
+            margin-top: 25%;
+        }
+        .green h1{
+            font-size: 32px;
+        }
+        .green p{
+            font-size: 16px;
+        }
+        .green{
+            display: flex;
+            flex-direction: column;
+        }
+        .hi2{
+            all: initial;
+            all: none;
+            margin-left: 0px;
+            order: 1;
+            margin-top: -45%;
+            z-index: 999;
+
+        }
+        .hi1{
+            order: 2;
+        }
+        .green img{
+            width: 80%;
+        }
+        .circle3{
+            width: 600px;
+            height: 600px;
+            background:rgb(215, 253, 215);
+            position: absolute;
+            border-radius: 50%;
+            margin-left: -28%;
+            margin-top: 10%;
+            z-index: -1999;
+            margin-bottom: 1%;
+        }
+        .circle4{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            background:rgb(215, 253, 215);
+            border-radius: 50%;
+            margin-top: 10%;
+            right: -90px;
+        }
+        .hi1{
+            margin: 0;
+            position: relative;
+            z-index: 999;
+        }
+        .hi1 h1{
+            position: relative;
+            z-index: 99999;
+        }
+        .hi1{
+            z-index: 9999;
+        }
+        .green .hi{
+            z-index: 999;
+        }
+        .container2{
+            margin-left: 3%;
+        }
+        .container3 h1{
+            font-size: 36px;
+        }
+        .container3 p{
+            font-size: 18px;
+        }
+        .container3 p a{
+            font-size: 18px;
+        }
+    }
+    @media only screen and (max-width:620px){
+        .text{
+            margin: 0;
+            padding-top:1% ;
+        }
+        .text p{
+            text-align: center;
+            font-size:16px ;
+        }
+       #apple{
+           margin-left: 25%;
+       }
+       .blue{
+           padding-top: 10%;
+           display: flex;
+           flex-direction: column;
+           padding-bottom: 5%;
+           align-items: center;
+        padding-right: 10%;     
+      }
+
+       .blue h2{
+           font-size: 24px;
+           z-index: 999;
+       }
+       .blue p{
+           font-size: 16px;
+           z-index: 999;
+       }
+       .btn{
+           all: initial;
+           z-index: 999;
+           text-align: center;
+           background: white;
+           padding: 15px 15px;
+           border-radius: 10%;
+           cursor: pointer;
+       }
+       .circle, .circle2{
+           display: none;
+       }
+       .best{
+           all: initial;
+        margin-bottom: 40px; 
+          }
+       .first{
+           margin-bottom: 5px;
+       }
+       #img1, #img2, #img3{
+           width: 15%;
+           padding: 0px;
+           position: absolute;
+           padding-top: 30px;
+           margin-top: 20px;
+           z-index: 999;
+       }
+       #ride,#price,#use{
+           font-size: 22px;
+           padding-left: 20%; 
+           margin-bottom: 0px;
+           padding-bottom: 5px;
+           margin-top: 40px;
+         }
+         figcaption{
+             padding-left: 20%;
+             font-size: 14px;
+         }
+         
+    #img2{
+        width: 12%;
+    }
+    #img3{
+        width: 10%;
+        margin-top:-20px ;
+    }
+    .green{
+        margin-top: 60%;
+   }
+   .circle3{
+    width: 600px;
+    height: 600px;
+    background:rgb(215, 253, 215);
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -28%;
+    margin-top: 10%;
+    z-index: -1999;
+    margin-bottom: 1%;
+   }
+   .green img{
+       width: 100%;
+   }
+   .green h1{
+       position: relative;
+       z-index: 9999;
+
+   }
+   .container2{
+       z-index: 999;
+       flex-direction: column;
+       white-space: nowrap;
+       margin-top: 150px;
+       padding: 0px;
+   }
+   .test1, .test2, .test3{
+       margin: initial;
+       padding-left: 15%;
+       padding-right: 0;
+   }
+   .container2 h1{
+       font-size: 20px;
+   }
+   .container2 p{
+       font-size: 16px;
+       white-space: nowrap;
+   }
+   .container2 img{
+       position: absolute;
+       left: 10px;
+       padding: 15px;
+       padding-top: -260px;
+   }
+   .apple{
+       position: relative;
+       padding: 0;
+       left: -25%;
+   }
+   .google{
+       left: 50%;
+   }
+   .container4{
+   flex-direction: column;
+   padding: 0;
+   margin: 0;
+}
+.boltlogo{
+    width: 18%;
+    margin-bottom: 15px;
+    margin-left: -3%;
+    
+}
+.left{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.middle{
+    padding-top: 5%;
+    padding-left: 0%;
+    margin: 0;
+}
+.right{
+    padding-top: 5%;
+    padding-left: 0%;
+    margin: 0;
+}
+.social{
+    all: initial;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;  
+}
+.media{
+    all: initial;
+order: 1;
+margin: 0;
+padding: 0 0px;
+top: 10%;
+margin-right: -5px;
+margin-bottom: 10%;
+text-align: center;
+
+}
+#legal{
+    order: 3;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10%;
+    left: -55px;
+    margin-left: -55px;
+
+}
+.media .fab{
+    margin: 0;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+#techno{
+    margin-bottom: 10%;
+    text-align: center;
+    order: 2;
+
+}
+#apple2{
+    position: relative;
+    margin: -20px 30px;
+    padding: 0;
+}
+#google2{
+position: relative; 
+   margin-left: -78%;
+   margin-bottom: -29px;
+    padding: 0;
+}
+.hi1{
+    z-index: 99999999;
+}
+.help{
+    margin-top: -25px;
+    margin-left: -3%;
+    margin-bottom: 0px;
+    padding-top: 60px;
+}
+.hamb{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 5%;
+    padding: 15px 0;
+    cursor: pointer;
+
+}
+.line1{
+    width: 20px;
+    background-color: black;
+    height: 3px;
+    margin: 5px 0;
+}
+.navbar{
+
+    position: absolute;
+    left: 0%;
+    display: none;
+
+
+}
+.nav-links{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0px 0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.hamb:hover .navbar{
+    display: block;
+
+}
+hr{
+    display: inline-block;
+    display: none;
+    box-sizing: border-box;
+    width: 7px;
+    height: 40px;
+    background-color: green;
+    padding-top: 0px;
+    margin-top: -10px;
+    margin-left: -20px;
+    position: absolute;
+}
+.nav-links:hover hr{
+    display: inline-block;
+}
+}
+
+
+    
